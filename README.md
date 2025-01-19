@@ -1,6 +1,6 @@
 # PDSFLRR
-the code is from the paper:PDSFLRR:Low-Rank Representation with Projection Distance and Sparsity Constraints for Clustering Single-Cell RNA Sequencing Data
-this is abstract: The development of single-cell RNA sequenc-
+The code is from the paper:PDSFLRR:Low-Rank Representation with Projection Distance and Sparsity Constraints for Clustering Single-Cell RNA Sequencing Data.
+This is abstract: The development of single-cell RNA sequenc-
 ing (scRNA-seq) technology has provided essential re-
 sources for identifying cellular heterogeneity and diver-
 sity. Clustering is one of the key techniques for analyzing
