@@ -52,6 +52,9 @@ for iter=1:max_iter
     Jj=(mu*Z+Y2-Q)/(2+mu);
     tau=alpha/(2+mu);
     J=sign(Jj).*max(abs(Jj)-tau,0);
+    J=(J+J')/2;
+    J = J - diag(diag(J));
+    J = J ./ (sum(abs(J),2) + eps);
     %% update E
     E=(mu/(2*lambda+mu))*(D+1/mu*Y1-D*Z);
 
