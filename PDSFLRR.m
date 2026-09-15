@@ -47,7 +47,6 @@ for iter=1:max_iter
     DTD = D'*D;
     %% updata Z
     Z = inv(eye(n)+DTD)*( DTD - D'*E + J + ( D'*Y1 - Y2 )/mu);
-    Z = Z - diag(diag(Z));  
     %% update J
      Q = L2_distance_1(D,D);
     Jj=(mu*Z+Y2-Q)/(2+mu);
